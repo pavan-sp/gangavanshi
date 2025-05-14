@@ -1769,6 +1769,49 @@ input, select, textarea {
 
 /* Nav */
 
+	#nav-main a {
+		display: inline-block;
+		margin: 0.15em;
+		outline: 0;
+		text-decoration: none;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+		-ms-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;
+		width: 3.87em;
+		border-radius: 4px;
+		background: #222222;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	#nav-main a span {
+		line-height: 2.25em;
+		opacity: 0.5;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+		-ms-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;
+		font-size: 0.9em;
+	}
+
+
+	#nav-main a:hover span {
+		opacity: 1.0;
+		font-weight: bold;
+	}
+
+	#nav-main a.active {
+		opacity: 1.0;
+		color: #000;
+		background: #ffffff;
+	}
+
+	#nav-main a.active span {
+		opacity: 1.0;
+		font-weight: bold;
+	}
+
 	#nav {
 		text-align: center;
 		height: 4.25em;
